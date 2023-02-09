@@ -9,6 +9,12 @@ body {
     color: #FFFFFF;
 }
 
+header {
+    background-image: url(/img/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .hero {
     padding: 160px 0;
     width: 595px;
