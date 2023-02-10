@@ -57,4 +57,10 @@ header {
     line-height: 17px;
 }
 
+.container {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    align-items: flex-start;
+}
+
 
