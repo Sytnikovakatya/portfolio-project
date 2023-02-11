@@ -1,4 +1,4 @@
-:root {
+ :root {
     --primary-color: #1B1B1B;
     --main-font-family: 'Roboto', sans-serif;
     --secondary-font-family:'Montserrat', sans-serif;
@@ -18,7 +18,7 @@ header {
 
 .hero {
     padding: 160px 0;
-    width: 595px;
+    
     height: auto;
     text-align: center;
     margin: 0 auto;
@@ -63,4 +63,47 @@ header {
     align-items: flex-start;
 }
 
+.responsive {
+    max-width: 100%;
+    height: auto;
+  }
+
+@media (max-width: 900px) {
+    .hero h1 {
+      font-size: 44px;
+      line-height: 2;
+    }
+  
+    .hero h2 {
+      font-size: 16px;
+    }
+
+    .hero p {
+        font-size: 12px;
+    }
+    .header {
+        background-image: none;
+    }
+    
+    .hero {
+      padding: 80px 20px;
+      width: 100%;
+      margin: 0px;
+    }
+
+  }
+
+  @media (max-width: 576px) {
+    .hero h1 {
+        font-size: 24px;
+      }
+    
+      .hero h2 {
+        font-size: 12px;
+      }
+  
+      .hero p {
+          font-size: 10px;
+      }
+  }
 
