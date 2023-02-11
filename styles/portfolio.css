@@ -80,9 +80,7 @@ header {
 
     .hero p {
         font-size: 12px;
-    }
-    .header {
-        background-image: none;
+        line-height: 20px;
     }
     
     .hero {
@@ -91,9 +89,17 @@ header {
       margin: 0px;
     }
 
+    .container {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
   }
 
   @media (max-width: 576px) {
+    .hero {
+        padding: 70px 15px 50px 15px;
+      }
+  
     .hero h1 {
         font-size: 24px;
       }
@@ -104,6 +110,17 @@ header {
   
       .hero p {
           font-size: 10px;
+          line-height: 15px;
       }
+
+      .btn-branding {
+        padding: 10px 20px;
+        font-size: 10px;
+      }
+
+      .container {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
   }
 
