@@ -57,6 +57,20 @@ header {
     line-height: 17px;
 }
 
+.btn-secondary {
+  padding: 18px 30px;
+  background: #FFFFFF;
+  border-radius: 50px;
+  font-family: var(--secondary-font-family);
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: #272142;
+  font-size: 14px;
+  text-transform: uppercase;
+  line-height: 17px;
+  margin-top: 66px;
+}
+
 .container {
     margin-top: 100px;
     margin-bottom: 100px;
