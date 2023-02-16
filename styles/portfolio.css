@@ -109,7 +109,7 @@ header {
   margin: 51px 0px 92px 40px
 }
 
-.about-section-content h2 {
+.about-section-content h2{
   font-size: 64px;
   line-height: 75px;
   font-weight: 700;
@@ -127,6 +127,19 @@ header {
 .about-section-links a {
   text-decoration: none;
   color: #FFFFFF;
+}
+
+.main-title {
+  font-family: var(--main-font-family);
+  text-align: center;
+  font-size: 72px;
+  line-height: 84px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-top: 150px;
+  margin-bottom: 166px;
 }
 
 @media (max-width: 900px) {
