@@ -168,6 +168,11 @@ header {
   color: #FFFFFF;
 }
 
+.contact a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
 @media (max-width: 900px) {
     .hero h1 {
       font-size: 44px;
