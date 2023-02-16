@@ -187,3 +187,11 @@ header {
     }
   }
 
+  @media (min-width: 1600px) {
+    .btn-branding {
+      padding: 28px 40px;
+      font-size: 20px;
+    }
+  }
+
+
