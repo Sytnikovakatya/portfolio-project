@@ -138,8 +138,34 @@ header {
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: #FFFFFF;
+}
+
+.gallery-title {
   margin-top: 150px;
   margin-bottom: 166px;
+}
+
+.contact {
+  text-align: center;
+  font-family: var(--main-font-family);
+  margin-top: 142px;
+  margin-bottom: 248px;
+}
+
+.contact h5 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #F65282;
+}
+
+.contact p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #FFFFFF;
 }
 
 @media (max-width: 900px) {
