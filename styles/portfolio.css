@@ -2,6 +2,7 @@
     --primary-color: #1B1B1B;
     --main-font-family: 'Roboto', sans-serif;
     --secondary-font-family:'Montserrat', sans-serif;
+    --secondary-title-color: #F65282;
 }
 
 body {
@@ -18,7 +19,6 @@ header {
 
 .hero {
     padding: 160px 0;
-    
     height: auto;
     text-align: center;
     margin: 0 auto;
@@ -68,7 +68,7 @@ header {
   font-size: 14px;
   text-transform: uppercase;
   line-height: 17px;
-  margin-top: 66px;
+  margin-top: 65px;
 }
 
 .container {
@@ -80,7 +80,55 @@ header {
 .responsive {
     max-width: 100%;
     height: auto;
-  }
+}
+
+.about-section {
+  margin-left: 0px;
+  margin-right: 0px;
+  padding: 0px;
+  font-family: var(--main-font-family);
+}
+
+.about-portrait {
+  background-image: url(/img/portrait.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.about-title {
+  text-transform: uppercase;
+  color: var(--secondary-title-color);
+  letter-spacing: 0.1em;
+  font-family: var(--main-font-family);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.about-section-content {
+  margin: 51px 0px 92px 40px
+}
+
+.about-section-content h2 {
+  font-size: 64px;
+  line-height: 75px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.about-section-content p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.about-section-links a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
 
 @media (max-width: 900px) {
     .hero h1 {
