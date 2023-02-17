@@ -14,7 +14,7 @@ nav {
   display: flex;
   justify-content: space-between;
   padding: 43px 140px;
-  background-color: var(--primary-color);
+  background-color: #202020;;
 }
 
 .navigation {
@@ -60,6 +60,7 @@ header {
     text-align: center;
     margin: 0 auto;
 }
+
 .hero h2 {
     font-size: 24px;
     font-family: var(--main-font-family);
@@ -116,6 +117,21 @@ header {
 .responsive {
     max-width: 100%;
     height: auto;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 38px 140px;
+  background-color: #282323;
+}
+
+.copyright {
+  font-family: var(--main-font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
 }
 
 .about-section {
@@ -223,9 +239,22 @@ header {
 }
 
 @media (max-width: 900px) {
-  nav {
-    padding: 33px 80px;
-  }
+    nav {
+      padding: 33px 80px;
+    }
+
+    footer {
+      padding: 30px 90px;
+    }
+
+    footer img {
+      width: 80px;
+      height: auto;
+    }
+
+    .copyright {
+      font-size: 12px;
+    }
     .hero h1 {
       font-size: 44px;
       line-height: 2;
@@ -265,9 +294,22 @@ header {
     .navigation a {
       font-size: 14px;
     }
-    
+
     .navigation li {
       padding: 5px;
+    }
+
+    footer {
+      padding: 10px 20px;
+    }
+
+    footer img {
+      width: 50px;
+      height: auto;
+    }
+
+    footer a {
+      font-size: small;
     }
 
     .hero {
@@ -308,6 +350,14 @@ header {
 
     nav {
       padding: 13px 20px;
+    }
+
+    footer {
+      padding: 7px 10px;
+    }
+
+    .copyright {
+      font-size: 8px;
     }
   }
 
