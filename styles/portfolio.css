@@ -34,7 +34,6 @@ nav {
 
 .navigation a:hover {
   font-weight: bold;
-  font-size: 20px;
 }
 
 .navigation li {
@@ -324,16 +323,12 @@ footer {
       background-color: transparent;
       color: var(--secondary-title-color);
     }
-    .navigation a:hover {
-      font-weight: normal;
-      font-size: medium;
-    }
-
+  
     .about-section-content {
-      margin: 30px 5px 32px 20px
+      margin: 50px 5px 32px 20px
     }
     .about-section-content h2 {
-      font-size: 44px;
+      font-size: 34px;
     }
 
     .about-section-content p {
@@ -350,6 +345,11 @@ footer {
   }
 
   @media (max-width: 576px) {
+    .about-camera img {
+      width: 40px;
+      height: auto;
+    }
+
     .main-title {
       font-size: 34px;
     }
