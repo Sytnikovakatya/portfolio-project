@@ -111,7 +111,7 @@ header {
 
 .container {
     margin-top: 110px;
-    margin-bottom: 110px;
+    margin-bottom: 200px;
 }
 
 .responsive {
@@ -120,6 +120,11 @@ header {
 }
 
 footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   padding: 38px 140px;
@@ -177,9 +182,17 @@ footer {
   line-height: 30px;
 }
 
-.about-section-links a {
+.social-links a {
   text-decoration: none;
   color: #FFFFFF;
+  padding: 10px 14px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+
+.social-links a:hover {
+  background-color: var(--secondary-title-color);
+
 }
 
 .main-title {
