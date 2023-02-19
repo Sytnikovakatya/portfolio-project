@@ -198,11 +198,15 @@ footer {
   margin-bottom: 166px;
 }
 
+.main-title {
+  margin-top: 150px;
+}
+
 .contact {
   text-align: center;
   font-family: var(--main-font-family);
-  margin-top: 142px;
-  margin-bottom: 248px;
+  margin-top: 140px;
+  margin-bottom: 220px;
 }
 
 .contact h5 {
