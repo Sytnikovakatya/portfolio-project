@@ -119,15 +119,18 @@ header {
     height: auto;
 }
 
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+}
+
 footer {
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
   width: 100%;
-  display: flex;
-  justify-content: space-between;
-  padding: 38px 140px;
+  padding: 38px 120px 10px 120px;
   background-color: #282323;
 }
 
